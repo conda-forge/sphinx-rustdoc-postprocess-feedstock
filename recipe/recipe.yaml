@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sphinx-rustdoc-postprocess
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sphinx-rustdoc-postprocess/sphinx_rustdoc_postprocess-${{ version }}.tar.gz
-  sha256: 6da5c09df398159edc2c18e53c9fe524ece87bffed8bde9e3f826a7a37aa96c6
+  sha256: 091cf42f660049e17c8632390a16267006800747b86635063fda02dbc5df6a94
 
 build:
   noarch: python
